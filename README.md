@@ -7,8 +7,8 @@ isMobile
 ```javascript
 import { isMobileUA, isMobileView } from '@geekpark/ismobile'
 
-if(isMobileUA) alert('Using Mobile Browser');
-if(isMobileView) alert('Mobile Viewport');
+if(isMobileUA()) alert('Using Mobile Browser');
+if(isMobileView()) alert('Mobile Viewport');
 ```
 
 ### Method list

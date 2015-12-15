@@ -19,10 +19,10 @@ var isMobile = {
   isWechatAndroid: () => isWechat() && isAndroid(),
   isWechatIOS: () => isWechat() && isIOS(),
 
-  isMobileView: () => VW <= VIEW.mobile,
-  isTabletView: () => VW <= VIEW.tablet && VW > VIEW.mobile,
-  isMediumView: () => VW <= VIEW.medium && VW > VIEW.tablet,
-  isLargeView : () => VW > VIEW.medium,
+  isMobileView: () => VW < VIEW.mobile,
+  isTabletView: () => VW < VIEW.tablet && VW >= VIEW.mobile,
+  isMediumView: () => VW < VIEW.medium && VW >= VIEW.tablet,
+  isLargeView : () => VW >= VIEW.medium,
 };
 
 export default isMobile;

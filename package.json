@@ -1,6 +1,6 @@
 {
   "name": "@geekpark/ismobile",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Detect browser by UA or Viewport",
   "main": "index.js",
   "scripts": {

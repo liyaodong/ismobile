@@ -40,16 +40,16 @@ var isMobile = {
   },
 
   isMobileView: function isMobileView() {
-    return VW <= VIEW.mobile;
+    return VW < VIEW.mobile;
   },
   isTabletView: function isTabletView() {
-    return VW <= VIEW.tablet && VW > VIEW.mobile;
+    return VW < VIEW.tablet && VW >= VIEW.mobile;
   },
   isMediumView: function isMediumView() {
-    return VW <= VIEW.medium && VW > VIEW.tablet;
+    return VW < VIEW.medium && VW >= VIEW.tablet;
   },
   isLargeView: function isLargeView() {
-    return VW > VIEW.medium;
+    return VW >= VIEW.medium;
   }
 };
 

@@ -33,4 +33,4 @@ if(isMobileView()) alert('Mobile Viewport');
 `gnpm` was private npm registry for [GeekPark](http://www.geekpark.net), [read more](https://github.com/cnpm/cnpmjs.org)
 
 ### Resource
-Regex was made by (detectmobilebrowsers)[http://detectmobilebrowsers.com/]
+Regex was made by [detectmobilebrowsers](http://detectmobilebrowsers.com/)

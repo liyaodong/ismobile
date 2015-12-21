@@ -50,6 +50,13 @@ var isMobile = {
   },
   isLargeView: function isLargeView() {
     return VW >= VIEW.medium;
+  },
+
+  isRetina: function isRetina() {
+    return window.devicePixelRatio >= 2;
+  },
+  isHighResolution: function isHighResolution() {
+    return window.devicePixelRatio >= 1.5;
   }
 };
 

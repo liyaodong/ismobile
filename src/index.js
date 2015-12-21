@@ -23,6 +23,9 @@ var isMobile = {
   isTabletView: () => VW < VIEW.tablet && VW >= VIEW.mobile,
   isMediumView: () => VW < VIEW.medium && VW >= VIEW.tablet,
   isLargeView : () => VW >= VIEW.medium,
+
+  isRetina: () => window.devicePixelRatio >= 2,
+  isHighResolution: () => window.devicePixelRatio >= 1.5,
 };
 
 export default isMobile;

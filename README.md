@@ -1,4 +1,4 @@
-# isMobile [![Build Status](http://img.shields.io/travis/liyaodong/mdetect.svg)](https://travis-ci.org/liyaodong/mdetect) [![Npm Status](https://img.shields.io/npm/v/mdetect.svg)](https://www.npmjs.com/package/mdetect)
+# mdetect [![Build Status](http://img.shields.io/travis/liyaodong/mdetect.svg)](https://travis-ci.org/liyaodong/mdetect) [![Npm Status](https://img.shields.io/npm/v/mdetect.svg)](https://www.npmjs.com/package/mdetect)
 
 ### Install
 `npm i mdetect`

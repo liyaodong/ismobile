@@ -60,5 +60,4 @@ var isMobile = {
   }
 };
 
-exports["default"] = isMobile;
-module.exports = exports["default"];
+exports.default = isMobile;

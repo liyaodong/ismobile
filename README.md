@@ -1,11 +1,11 @@
-isMobile
+# isMobile [![Build Status](http://img.shields.io/travis/liyaodong/mdetect.svg)](https://travis-ci.org/liyaodong/mdetect) [![Npm Status](https://img.shields.io/npm/v/mdetect.svg)](https://www.npmjs.com/package/mdetect)
 ---------
 ### Install
-`gnpm i @geekpark/ismobile`
+`npm i mdetect`
 
 ### Usage
 ```javascript
-import { isMobileUA, isMobileView } from '@geekpark/ismobile'
+import { isMobileUA, isMobileView } from 'mdetect'
 
 if(isMobileUA()) alert('Using Mobile Browser');
 if(isMobileView()) alert('Mobile Viewport');
@@ -31,9 +31,6 @@ if(isMobileView()) alert('Mobile Viewport');
 
 * `isRetina`
 * `isHighResolution`
-
-### What is gnpm ?
-`gnpm` was private npm registry for [GeekPark](http://www.geekpark.net), [read more](https://github.com/cnpm/cnpmjs.org)
 
 ### Resource
 Regex was made by [detectmobilebrowsers](http://detectmobilebrowsers.com/)

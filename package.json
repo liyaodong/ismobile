@@ -1,6 +1,6 @@
 {
   "name": "mdetect",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "mobile detect by UA or Viewport",
   "main": "index.js",
   "scripts": {
